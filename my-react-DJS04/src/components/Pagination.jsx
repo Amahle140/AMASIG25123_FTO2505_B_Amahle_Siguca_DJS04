@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { PodcastContext } from '../context/PodcastContext';
+import { PodcastContext } from '../components/PodcastContext';
 
 export default function Pagination() {
   const { currentPage, setCurrentPage, filteredPodcasts, itemsPerPage } = useContext(PodcastContext);
