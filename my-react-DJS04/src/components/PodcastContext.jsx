@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
-import { genres } from '../data/genres';
+import { genres } from '../utils/genres';
 
 export const PodcastContext = createContext();
 
